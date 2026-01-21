@@ -120,17 +120,17 @@ title(string(label) + ", " + num2str(100*max(probs),3) + "%"); // 顯示類別�
 實驗皆成功
 <details>
 <summary> 展開圖片成果 </summary>
-
+                   
 |SqueezeNet|AlexNet|
-|:--|:--|
-|<img src="https://github.com/user-attachments/assets/af0bf8f7-ba7e-4975-945b-5b2a35eb83aa" height="300"> | <img src="https://github.com/user-attachments/assets/ab4b77a8-bfc1-4489-8882-9ea4ba1a8bdc" height="300">|
-|$\color{green}{\text{成功}}$|$\color{green}{\text{成功}}$|
-|<img src="https://github.com/user-attachments/assets/5f111314-6d78-4c23-b80f-9434726e152b" height="300">|<img src="https://github.com/user-attachments/assets/da13ed0b-a031-4201-9990-ff07564096ab" height="300">|
-|$\color{green}{\text{成功}}$|$\color{green}{\text{成功}}$|
-|<img src="https://github.com/user-attachments/assets/130048f4-3c7c-4f6e-9694-3c7bb70d8967" height="300">|<img src="https://github.com/user-attachments/assets/f82da63f-8f38-41ce-99d1-f00bff1f3e44" height="300">|
-|$\color{green}{\text{成功}}$|$\color{green}{\text{成功}}$|
-|<img src="https://github.com/user-attachments/assets/f117bb4c-201a-436a-bd5f-202de333dfa5" height="300"> | <img src="https://github.com/user-attachments/assets/24b6c266-f846-41a6-8f69-1088eb73ce36" height="300">|
-|$\color{green}{\text{成功}}$|$\color{green}{\text{成功}}$|
+|:--:|:--:|
+|<img src="https://github.com/user-attachments/assets/1f1f8dc8-8c1e-4904-94fd-7c295b4afd79" height="300"> | <img src="https://github.com/user-attachments/assets/d488bfea-b442-4cdf-a5e9-0a859162a3d4" height="300">|
+|$\color{green}{\text{成功}}$ | $\color{green}{\text{成功}}$|
+|<img src="https://github.com/user-attachments/assets/ee41ae69-cb56-4133-bbe4-65a4386474b8" height="300"> | <img src="https://github.com/user-attachments/assets/31a977f7-0917-4a12-a6f5-f3aba7cf5eb9" height="300">|
+|$\color{green}{\text{成功}}$ | $\color{green}{\text{成功}}$|
+|<img src="https://github.com/user-attachments/assets/d10462ec-a7fe-4b65-b48b-7011e3a65c6b" height="300"> | <img src="https://github.com/user-attachments/assets/06aed695-8f31-4f20-8ff0-4ee609ee88d4" height="300">|
+|$\color{green}{\text{成功}}$ | $\color{green}{\text{成功}}$|
+|<img src="https://github.com/user-attachments/assets/e1ffd7d3-3899-46b6-a12c-d92c98cffc3f" height="300"> | <img src="https://github.com/user-attachments/assets/c5ca6055-f455-4ea7-b1e9-53f3fa8f721b" height="300">|
+|$\color{green}{\text{成功}}$ | $\color{green}{\text{成功}}$|
 </details>
 </details>
 
