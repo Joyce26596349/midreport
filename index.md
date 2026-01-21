@@ -1,3 +1,8 @@
+---
+layout: page
+title: 📚 工程專案學習中心
+---
+
 # 📚 工程專題學習總整理
 
 這是一個有關工程研究報告的總整理
@@ -51,7 +56,7 @@
 </style>
 
 <div class="card-container">
-    <a href="mid_report.md" class="card">
+    <a href="mid_report" class="card">
         <div>
             <h2>📊 期中報告</h2>
             <p>matlab創意主題</p>
@@ -59,7 +64,7 @@
         <span class="btn-start">開始學習</span>
     </a>
 
-    <a href="last_report.md" class="card">
+    <a href="last_report" class="card">
         <div>
             <h2>☁️ 期末報告</h2>
             <p>不同卷積神經訓練AI</p>
