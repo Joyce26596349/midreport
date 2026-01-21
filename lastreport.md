@@ -23,20 +23,60 @@
 ## 三、建立模型挖掘資料：
 <details>
   <summary>展開</summary>
- <table>
+<table style="width: 100%; table-layout: auto;">
   <tr align="center">
-    <th width="35%">SqueezeNet</th>
-    <th width="35%">alexnet</th>
-    <th width="30%">更改參數</th>
+    <th width="10%">項目</th>
+    <th width="30%">SqueezeNet</th>
+    <th width="30%">alexnet</th>
+    <th width="30%">參數</th>
   </tr>
-  
   <tr>
+    <td align="center"><b>增加訓練資料</b></td>
+    <td colspan="2" align="center">
+      <img src="https://github.com/user-attachments/assets/0a035af9-cbf4-4e80-b96a-2c16845d5376" height="200">
+    </td>
+    <td valign="top" style="white-space: nowrap;">
+      <b>增加訓練資料內容</b><br>
+      Observations: 資料量(28x3=84)<br>
+      Classes: 類別數(3)<br>
+      Most/Fewest observations: (28)<br>
+      最高/最低資料數的類別(小批次大小)
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center"><b>properties</b></td>
     <td align="center">
-      <div align="center"><b>Training option</b></div>
+      <img src="https://github.com/user-attachments/assets/be4761ac-4dbc-4b96-8875-53365b7b8646" height="200">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/0a12b74c-1069-4c56-9fd2-e7eee3562de6" height="200">
+    </td>
+    <td valign="top" style="white-space: nowrap;">
+      <b>更改參數</b><br>
+      - NumFilters辦成有的類別數量3 <br>
+      - WeightLearnRateFactor(權重學習率因子)調成10(更快) <br>
+      - BiasLearnRateFactor(偏重學習率因子)調成10(和權重學習率因子一樣)
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center"><b>analyze</b></td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/6548f0b0-4969-440d-acde-a21f5505b994" height="200">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/33a8d8d4-db51-488a-840f-0a9894652c80" height="200">
+    </td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td align="center"><b>Training option</b></td>
+    <td align="center">
       <img src="https://github.com/user-attachments/assets/c849fb2c-0a58-4e83-b6d4-a604ec665ff0" height="200">
     </td>
     <td align="center">
-      <div align="center"><b>Training option</b></div>
       <img src="https://github.com/user-attachments/assets/d1a4773e-c743-4cfd-8432-f1a5750febaa" height="200">
     </td>
     <td valign="top" style="white-space: nowrap;">
@@ -48,10 +88,14 @@
   </tr>
 
   <tr>
-    <td colspan="3" align="center">
-      <b>Squeezenet訓練曲線</b><br>
-      <img src="Squeezenet_Curve_連結" height="200">
+    <td align="center"><b>訓練曲線</b></td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/1c1011a5-0dcd-4956-841f-f5530ebdbe97" height="200">
     </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/30e0e185-c20a-427b-a525-92a47132ec4a" height="200">
+    </td>
+    <td></td>
   </tr>
 </table>
 
