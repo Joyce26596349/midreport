@@ -1,6 +1,6 @@
-# 📚 工程專題學習中心
+# 📚 工程專題學習總整理
 
-這是一個專為 **MATLAB** 與 **AI** 學習者設計的資源平台，紀錄了 SqueezeNet 與 AlexNet 的實驗過程。
+這是一個有關工程研究報告的總整理
 
 <style>
     .card-container {
@@ -54,15 +54,15 @@
     <a href="mid_report.md" class="card">
         <div>
             <h2>📊 期中報告</h2>
-            <p>包含 SqueezeNet 架構分析、Properties 參數設定與初始訓練資料觀察。</p>
+            <p>matlab創意主題</p>
         </div>
         <span class="btn-start">開始學習</span>
     </a>
 
     <a href="last_report.md" class="card">
         <div>
-            <h2>🤖 期末報告</h2>
-            <p>AlexNet 對照組實驗、訓練曲線分析及最終模型優化成果總結。</p>
+            <h2>☁️ 期末報告</h2>
+            <p>不同卷積神經訓練AI</p>
         </div>
         <span class="btn-start">開始學習</span>
     </a>
