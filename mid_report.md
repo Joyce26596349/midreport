@@ -113,7 +113,9 @@ text(x_range*0.02, y_range*0.95, '拋體運動分析', 'FontSize', 11, 'FontWeig
 </details>
 
 ## 主題二：猜圖片
+
 <details>
+    
 <summary>
     
     展開
@@ -124,6 +126,7 @@ text(x_range*0.02, y_range*0.95, '拋體運動分析', 'FontSize', 11, 'FontWeig
   ### 實作
 
 <details>
+    
   <summary>
       
       展開圖片
@@ -228,16 +231,18 @@ end
 ## 主題三：表單製造器 
 
 <details>
+    
 <summary>
     
     展開
 </summary>
   
-  ### 大綱
+### 大綱
 本實驗利用ch07握把式圖形與GUI設計撰寫了一個表單製造器，可增加多個題目並選擇不同答題方式，也可以將任意一個問題刪除，右側預覽區可以顯示當前表單狀態
-  ### 實作
+### 實作
 
 <details>
+    
   <summary>
       
       展開圖片
