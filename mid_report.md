@@ -52,7 +52,10 @@ layout: default
 </details>
 
 <details>
-  <summary>重要程式整理</summary>
+  <summary>
+      
+      重要程式整理
+</summary>
   
 ```cpp
 clear; clc; close all;
@@ -99,7 +102,6 @@ xlim([0, max(x)*1.15]);
 ylim([0, max(y)*1.15]);
 text(x_range*0.02, y_range*0.95, '拋體運動分析', 'FontSize', 11, 'FontWeight', 'bold', 'Color', 'blue');% 標題
 ```
-
 </details>
 
 ### 心得
