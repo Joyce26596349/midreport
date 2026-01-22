@@ -3,27 +3,52 @@ layout: default
 ---
 
 <style>
-    /* 隱藏 Architect 主題的側邊欄、維護者資訊與頁尾 */
-    header aside, .inner footer, .sidebar, footer, .view { display: none !important; }
+    /* 1. 徹底隱藏右側側邊欄與頁尾資訊 */
+    aside#sidebar, footer { display: none !important; }
     
-    /* 調整版面為滿版置中 */
-    #main_content { width: 100% !important; max-width: 900px !important; margin: 0 auto !important; }
-    header { padding: 30px 0 !important; }
-
-    /* 卡片式按鈕設計 */
-    .card-container { display: flex; gap: 20px; margin-top: 30px; flex-wrap: wrap; }
-    .card {
-        flex: 1; min-width: 280px; padding: 25px; border: 1px solid #e0e0e0;
-        border-radius: 12px; background-color: #ffffff; text-align: center;
-        text-decoration: none !important; color: #333 !important; display: block;
-        transition: transform 0.2s, box-shadow 0.2s;
+    /* 2. 讓主內容區域滿版，解決右邊空洞問題 */
+    section#main_content { 
+        width: 100% !important; 
+        max-width: 1000px !important; 
+        margin: 0 auto !important; 
+        float: none !important; 
     }
-    .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
-    .card-title { display: block; font-size: 1.5em; font-weight: bold; color: #007bff; margin-bottom: 8px; }
-    .card-desc { display: block; font-size: 1em; color: #666; margin-bottom: 20px; }
-    .btn-start {
-        display: inline-block; padding: 10px 30px; background-color: #007bff;
-        color: white !important; border-radius: 6px; font-weight: bold;
+
+    /* 3. 按鈕容器：改為 Flex 並排 */
+    .card-container {
+        display: flex;
+        gap: 20px;
+        margin-top: 30px;
+        flex-wrap: wrap; /* 手機版會自動換行 */
+    }
+
+    /* 4. 按鈕卡片樣式 */
+    .card {
+        flex: 1; /* 平分寬度 */
+        min-width: 300px;
+        padding: 30px;
+        border: 1px solid #e1e4e8;
+        border-radius: 12px;
+        background-color: #ffffff;
+        text-align: center;
+        text-decoration: none !important;
+        transition: transform 0.2s, box-shadow 0.2s;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        color: #24292e !important;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+    }
+    .card-title { display: block; font-size: 1.6em; font-weight: bold; color: #007bff; margin-bottom: 10px; }
+    .card-desc { display: block; font-size: 1em; color: #586069; margin-bottom: 25px; min-height: 3em; }
+    .btn-ui {
+        display: inline-block;
+        padding: 10px 40px;
+        background-color: #007bff;
+        color: white !important;
+        border-radius: 6px;
+        font-weight: bold;
     }
 </style>
 
