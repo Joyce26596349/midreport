@@ -39,14 +39,18 @@ layout: default
     展開
 </summary>
 
-  ### 大綱
+### 大綱
 為了解決物理老師畫拋物線太不準確而被同學罵的問題，本實驗利用ch08二維圖形依照使用者的輸入繪製出一個拋物線，並標示順便計算一些基本的相關數據，例如:最大高度、時間、射程...
-  ### 實作
+### 實作
 
 <details>
-  <summary>展開圖片</summary>
+  <summary>
+      
+      展開圖片
+</summary>
   <img src="https://github.com/user-attachments/assets/9dd7a445-63e7-416d-8682-7555f7254633" width="500">
 </details>
+
 <details>
   <summary>重要程式整理</summary>
   
