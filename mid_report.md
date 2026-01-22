@@ -23,7 +23,10 @@ layout: default
 # 工程專題期中報告 MATLAB程式設計
 ## 前言
 <details open>
-<summary>展開</summary>
+<summary>
+    
+    展開
+</summary>
 本三次實驗結合了matlab和生程式AI的運用，並適用在實體應用上，此實驗不僅能將程式運用在現實生活當中，還能比較不同AI對於程式的理解和表現的差異
 這次的課程中有ch07握把式圖形與GUI設計、ch08二維圖形、ch09三維圖形、ch11多項式
 、ch16影像與動畫
@@ -31,7 +34,10 @@ layout: default
 
 ## 主題一：拋體運動繪圖
 <details>
-<summary>展開</summary>
+<summary>
+    
+    展開
+</summary>
 
   ### 大綱
 為了解決物理老師畫拋物線太不準確而被同學罵的問題，本實驗利用ch08二維圖形依照使用者的輸入繪製出一個拋物線，並標示順便計算一些基本的相關數據，例如:最大高度、時間、射程...
