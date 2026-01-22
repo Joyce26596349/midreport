@@ -33,7 +33,9 @@ layout: default
 </details>
 
 ## 主題一：拋體運動繪圖
+
 <details>
+    
 <summary>
     
     展開
@@ -44,7 +46,7 @@ layout: default
 ### 實作
 
 <details>
-  <summary>
+<summary>
       
       展開圖片
 </summary>
@@ -52,7 +54,7 @@ layout: default
 </details>
 
 <details>
-  <summary>
+<summary>
       
       重要程式整理
 </summary>
@@ -102,6 +104,7 @@ xlim([0, max(x)*1.15]);
 ylim([0, max(y)*1.15]);
 text(x_range*0.02, y_range*0.95, '拋體運動分析', 'FontSize', 11, 'FontWeight', 'bold', 'Color', 'blue');% 標題
 ```
+
 </details>
 
 ### 心得
@@ -121,12 +124,18 @@ text(x_range*0.02, y_range*0.95, '拋體運動分析', 'FontSize', 11, 'FontWeig
   ### 實作
 
 <details>
-  <summary>展開圖片</summary>
+  <summary>
+      
+      展開圖片
+</summary>
 
   <img src="https://github.com/user-attachments/assets/0e7c380b-212a-4c2c-b814-4652c9b48d1a" width="500">
   </details>
 <details>
-  <summary>重要程式整理</summary>
+  <summary>
+      
+      重要程式整理
+</summary>
   
 ```cpp
 function guessTheImageBuiltIn()
@@ -228,12 +237,18 @@ end
   ### 實作
 
 <details>
-  <summary>展開圖片</summary>
+  <summary>
+      
+      展開圖片
+</summary>
 
   <img src="https://github.com/user-attachments/assets/51706af9-524c-4d1a-96a1-70301e28b576" width="500">
   </details>
 <details>
-  <summary>重要程式整理</summary>
+  <summary>
+      
+      重要程式整理 
+</summary>
   
 ```cpp
 function formbuilder
