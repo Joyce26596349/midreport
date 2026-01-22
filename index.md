@@ -29,20 +29,18 @@ layout: default
 
 # 📚 工程專題學習總整理
 
-這是一個有關工程研究報告的總整理
-
 <div class="card-container">
 
 <a href="mid_report" class="card">
     <span class="card-title">📊 期中報告</span>
     <span class="card-desc">結合了matlab和生程式AI的運用，並適用在實體創意主題上</span>
-    <span class="btn-start">開始學習</span>
+    <span class="btn-start">開啟報告</span>
 </a>
 
 <a href="last_report" class="card">
     <span class="card-title">☁️ 期末報告</span>
     <span class="card-desc">使用 matlab 中 deep network designer 判斷出圖片中天空中不同雲朵的類型 </span>
-    <span class="btn-start">開始學習</span>
+    <span class="btn-start">開啟報告</span>
 </a>
 
 </div>
