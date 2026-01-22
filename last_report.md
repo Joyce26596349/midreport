@@ -28,6 +28,7 @@ layout: default
     
     展開
 </summary>
+
 目標為使用 matlab 中 deep network designer 的 sqeezenet 與 alexnet 並判斷出天空中不同雲朵的類型,我蒐集了許多常見的雲朵照,包含卷雲(cirrus)、積雲(cumulus)、層雲(stratus),並進階轉換成相同格式與檔名,再調整訓練參數,訓練完後給他辨識和給的資料不一樣的圖,讓他分類與測試信心度,本次實驗希望可以將 AI 科技與地球科學結合,並讓天氣系統更好的利用雲朵自動預判天氣狀況。
 
 | SqueezeNet | AlexNet |
@@ -43,6 +44,7 @@ layout: default
     
     展開
 </summary>
+
 資料預處理+格式轉換 <img src="https://github.com/user-attachments/assets/0b95287e-81e0-4f3f-8119-3beed4750a6d" width="100"> 選擇批次轉換
 
 | 將詢問改為取代並選擇資料夾 | 加入轉換為全彩、調整大小將寬度與高度調成227 | 全選並選擇批次重新命名並更改命名範本、勾選副檔名 |
