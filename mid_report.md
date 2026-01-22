@@ -115,7 +115,6 @@ text(x_range*0.02, y_range*0.95, '拋體運動分析', 'FontSize', 11, 'FontWeig
 ## 主題二：猜圖片
 
 <details>
-    
 <summary>
     
     展開
@@ -126,7 +125,6 @@ text(x_range*0.02, y_range*0.95, '拋體運動分析', 'FontSize', 11, 'FontWeig
   ### 實作
 
 <details>
-    
   <summary>
       
       展開圖片
@@ -134,6 +132,7 @@ text(x_range*0.02, y_range*0.95, '拋體運動分析', 'FontSize', 11, 'FontWeig
 
   <img src="https://github.com/user-attachments/assets/0e7c380b-212a-4c2c-b814-4652c9b48d1a" width="500">
   </details>
+  
 <details>
   <summary>
       
@@ -231,7 +230,6 @@ end
 ## 主題三：表單製造器 
 
 <details>
-    
 <summary>
     
     展開
@@ -242,7 +240,6 @@ end
 ### 實作
 
 <details>
-    
   <summary>
       
       展開圖片
@@ -347,4 +344,5 @@ end
 ### 心得
 本次實驗與chatGPT合作，我發覺與它聊天、更改程式內容時時常不符合我的預期或沒改進，不是一個東西改好了而原本正確的東西改成錯的，就是直接產生錯誤無法執行，與它溝通了非常多的時間才造就了最終的結果。
 這個表單可以選擇答案形式(短答案,段落,單選,複選,下拉式選單)並新增問題，使用選擇的答案時將選項之間插入" | "即可分項，左上角選取題目可刪除該題目，下方有一鍵清除功能，雖然這個表單看起來很棒但還有值得改進的地方，例如可修改已寫完的題目內容、改變題目答題方式、增加可插入式題目、下載表單、每次更改題目時不將選項重置...。
+
 </details>
