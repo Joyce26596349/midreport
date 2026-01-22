@@ -160,9 +160,11 @@ label = YPred; // 將預測的類別賦予給名為標籤的變數
 title(string(label) + ", " + num2str(100*max(probs),3) + "%"); // 顯示類別與判斷率
 
 ```
+
 實驗皆成功
 
 <details>
+    
 <summary> 
     
     展開圖片成果
